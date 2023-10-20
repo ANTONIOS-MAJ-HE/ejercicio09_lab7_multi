@@ -22,6 +22,8 @@ namespace ejercicio09
             Resources["searchBarStyle"] = Resources["blueSearchBarStyle"];
         }
 
+       
+
         private void Button_Clicked(object sender, EventArgs e)
         {
             if (originalStyle)
@@ -35,6 +37,7 @@ namespace ejercicio09
                 originalStyle = true;
             }
         }
+    
     }
 
 }

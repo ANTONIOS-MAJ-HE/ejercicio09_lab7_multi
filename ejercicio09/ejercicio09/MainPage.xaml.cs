@@ -45,6 +45,39 @@ namespace ejercicio09
             {
                 await Navigation.PushAsync(new DynamicDemo());
             };
+
+            tareacss1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new tareacss());
+            };
+            ExplicitC1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ExplicitControlDemo());
+            };
+            Explicit1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ExplicitDemo());
+            };
+            ImplicitC1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ImplicitControlDemo());
+            };
+            Implicit1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ImplicitDemo());
+            };
+            Global1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new globaldemo());
+            };
+            Inherente1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new InheritanceDemo());
+            };
+            Dynamic1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new DynamicDemo());
+            };
         }
     }
 }

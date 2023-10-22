@@ -16,6 +16,16 @@
                 <Button Text="Dynamic" x:Name="Dynamic"/>
             </StackLayout>
         </ScrollView>
+        <StackLayout>
+            <Button Text="tareacss" x:Name="tareacss1"/>
+            <Button Text="Explicit Control" x:Name="ExplicitC1"/>
+            <Button Text="Explicit" x:Name="Explicit1"/>
+            <Button Text="Implicit Control" x:Name="ImplicitC1"/>
+            <Button Text="Implicit" x:Name="Implicit1"/>
+            <Button Text="Global" x:Name="Global1"/>
+            <Button Text="Inheritance" x:Name="Inherente1"/>
+            <Button Text="Dynamic" x:Name="Dynamic1"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
